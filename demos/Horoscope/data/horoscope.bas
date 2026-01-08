@@ -17,7 +17,7 @@
 
 1100 _setup
 1101 REM Setup system components
-1110 SET CURSOR OFF
+1110 'SET CURSOR OFF
 1120 SCREEN 1,0
 1159 REM Maintain Track Play status
 1160 mu = trackstatus

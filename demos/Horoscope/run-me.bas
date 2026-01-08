@@ -9,7 +9,7 @@
 
 1100 _setup
 1101 REM Setup system components
-1110 SET CURSOR OFF
+1110 'SET CURSOR OFF
 1115 PRINT "Loading Horoscope..."
 
 1120 SCREEN 1,3,,1,
