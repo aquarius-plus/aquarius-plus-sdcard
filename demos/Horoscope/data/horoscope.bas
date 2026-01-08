@@ -1,7 +1,7 @@
 1000 REM ----------------------------------------------
 1001 REM                 Horoscope Menu
 1002 REM     by Sean P. Harrington, sph@1stage.com
-1003 REM              Updated 20 OCT 2024
+1003 REM              Updated 07 JAN 2026
 1004 REM ----------------------------------------------
 1005 REM     Based on the Horoscope Arcade Machine
 1006 REM               (c) 1975 by Ramtek
@@ -33,15 +33,15 @@
 
 2000 _mainmenu
 2001 REM Main Menu loop
-2010 PAUSE
-2020 if key("q") then goto _closeout  : REM q = Quit
-2030 if key("a") then goto _about     : REM a = About
-2040 if key("m") then goto _toggleMu  : REM m = Toggle music
-2050 if key("1") then goto _futura    : REM 1 = Futura
-2060 if key("2") then goto _birth     : REM 2 = Birth
-2070 if key("3") then goto _aspects   : REM 3 = Aspects
-2080 if key("4") then goto _stars     : REM 4 = Stars
-2090 if key("5") then goto _biorhythm : REM 5 = Biorhythm
+2010 mk$="" : mk$ = getkey$
+2020 if mk$="q" then goto _closeout  : REM q = Quit
+2030 if mk$="a" then goto _about     : REM a = About
+2040 if mk$="m" then goto _toggleMu  : REM m = Toggle music
+2050 if mk$="1" then goto _futura    : REM 1 = Futura
+2060 if mk$="2" then goto _birth     : REM 2 = Birth
+2070 if mk$="3" then goto _aspects   : REM 3 = Aspects
+2080 if mk$="4" then goto _stars     : REM 4 = Stars
+2090 if mk$="5" then goto _biorhythm : REM 5 = Biorhythm
 2999 goto _mainmenu
 
 3100 _futura
