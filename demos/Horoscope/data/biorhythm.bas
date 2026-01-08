@@ -18,7 +18,6 @@
 1115 'CLS 2,0
 1116 SCREEN 1,3,,1,
 1117 LOAD BITMAP "data/red_back.bmp4"
-
 1120 USE CHRSET "data/horoscope.chr"
 1130 mu = trackstatus
 1140 dd = 0

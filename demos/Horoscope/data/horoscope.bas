@@ -17,7 +17,8 @@
 
 1100 _setup
 1101 REM Setup system components
-1110 SCREEN 1,0
+1110 SET CURSOR OFF
+1120 SCREEN 1,0
 1159 REM Maintain Track Play status
 1160 mu = trackstatus
 
@@ -29,6 +30,7 @@
 1910 CLS 2,0
 1920 SCREEN 1,3,,1,
 1930 LOAD BITMAP "data/red_back.bmp4"
+1935 'POKE $3029,$20
 1940 LOAD SCREEN "data/horomenu_blk.scr"
 
 2000 _mainmenu
