@@ -4,7 +4,7 @@
 1003 REM -----------------------------------------------
 
 1100 _INIT
-1110 SET FAST ON
+1110 SET SPEED 3
 1120 SET FILE ERROR OFF
 1130 WS$ = "https://api.wheretheiss.at/v1/satellites/25544"
 1140 SET SPRITE * CLEAR
