@@ -14,7 +14,7 @@
 
 1120 SCREEN 1,3,,1,
 1125 CLS 2,0
-1130 SET FAST ON
+1130 SET SPEED 3
 1140 USE CHRSET  "data/horoscope.chr"
 1150 LOAD BITMAP "data/horoscope_title.bmp4"
 1160 LOAD TRACK    "data/theme.pt3"

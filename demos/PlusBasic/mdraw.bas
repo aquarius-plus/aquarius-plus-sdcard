@@ -7,7 +7,7 @@
 1060 REM ----------------------------------
 1500 _SETUP
 1501 REM Setup routines
-1510 SET FAST ON
+1510 SET SPEED 3
 1511 REM Turn Turbo mode on
 1520 SET SPRITE * CLEAR
 1521 REM Clear all sprites

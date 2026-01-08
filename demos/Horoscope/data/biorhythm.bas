@@ -14,7 +14,7 @@
 1100 _setup
 1101 REM Setup Biorhythm components
 
-1110 SET FAST ON
+1110 SET SPEED 3
 1115 'CLS 2,0
 1116 SCREEN 1,3,,1,
 1117 LOAD BITMAP "data/red_back.bmp4"

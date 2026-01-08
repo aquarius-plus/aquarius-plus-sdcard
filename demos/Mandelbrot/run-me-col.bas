@@ -1,5 +1,5 @@
 1 REM Char-based Color Mandelbrot, 80 Column
-2 SET FAST ON
+2 SET SPEED 3
 3 SCREEN 3
 5 CLS 6,15
 6 GOSUB _OPGET
